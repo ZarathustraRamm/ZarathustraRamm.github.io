@@ -1,0 +1,128 @@
+main{
+  width: 1100px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+img{
+  width:1100px;
+}
+
+header{
+  position: relative
+}
+
+div{
+  padding-left: 20%
+}
+
+h1, blockquote{
+/*   background:green; */
+  font-family: 'Abril Fatface', cursiv;
+  
+}
+blockquote{
+  width: 480px;
+  height: 110px;
+  background: black;
+  color: grey;
+  font-size: 30px;
+  padding: 30px;
+ 
+  box-shadow: 4px -4px 4px 2px grey;
+}
+
+blockquote::before {
+  content: '”';
+  /* then the styling
+  more to learn https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements and http://stayathome-syllabus.greenfox.academy/week01/my-first-website.html */
+  size: 70px;
+}
+
+
+
+
+
+h1{
+  position: absolute;
+  left: 20%;
+  bottom: 7%
+}
+
+h2, h3, h4{
+/*   background: red; */
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+p, li{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h4{
+  margin-top:-14px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+
+.newsletter-box{
+  color: grey;
+  border: solid thin #cfcfcf;
+  border-radius: 3px;
+  padding: 7px;
+  position: relative;
+  width: 20%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: brown;
+}
+
+.newsletter-box h3 {
+  margin-top: 0px;
+  
+}
+.newsletter-box h3:hover {
+  color: lime;
+  }
+
+#email{
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 4px;
+  border: solid thin green;
+  border-radius: 3px;
+  box-sizing: border-box;
+  
+}
+
+button{ 
+  display: block;
+  width: 100%;
+  color: grey;
+  background: black;
+  border: none;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 3px
+}
+
+#terms{
+  position: relative;
+  top: 1px;
+  margin-top: 10px
+}
+.closex{
+  position: absolute;
+  top: 0px;
+  right: 7px;
+  cursor: pointer;
+  
+}
