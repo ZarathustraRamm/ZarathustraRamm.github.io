@@ -1,1 +1,28 @@
-p{background-color: aquamarine;}
+body{background-color: #d3d3d3; font-family: 'Electrolize', sans-serif;
+}
+
+.workingSpace {
+    width: 600px;
+    padding: 60px ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: none;
+    border-style: dashed;
+    border-width: 1px;
+    
+}
+
+
+.Qcircle{
+    color: #d3d3d3;
+    font-size: 65px;
+    background: blanchedalmond;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    text-align: center;
+    
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+  }
