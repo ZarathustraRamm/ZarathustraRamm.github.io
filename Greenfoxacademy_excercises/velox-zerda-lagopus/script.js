@@ -1,0 +1,7 @@
+// $('#ŧitle').text('My new title')
+$("#fox_1").text("MACROTIS")
+// $("#fox_2").border("purple")
+// $("fox_2").css("border-color"."purple")
+// $("fox_2").css("border-color", "purple")
+$("#fox_2").css("border-color", "purple")
+$("p").css("background", "yellow")
