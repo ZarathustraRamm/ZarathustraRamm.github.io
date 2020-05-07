@@ -1,0 +1,89 @@
+.container{
+  width: 600px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.cardholder{
+  display: flex;
+  justify-content: space-between;
+  
+  margin-bottom: 20px;
+  flex-shrink: 1;
+}
+
+.card{
+  width: 180px;
+  background: green;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  box-shadow: 4px -4px 4px 2px grey;
+  
+  
+}
+
+.newsletter-box{
+  color: grey;
+  border: solid thin #cfcfcf;
+  border-radius: 3px;
+  padding: 7px;
+  position: relative
+}
+
+.newsletter-box h3 {
+  margin-top: 0px
+}
+
+#email{
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 4px;
+  border: solid thin green;
+  border-radius: 3px;
+  box-sizing: border-box;
+  
+}
+
+button{ 
+  display: block;
+  width: 100%;
+  color: white;
+  background: green;
+  border: none;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 3px
+}
+
+#terms{
+  position: relative;
+  top: 1px;
+  margin-top: 10px
+}
+.closex{
+  position: absolute;
+  top: 0px;
+  right: 7px;
+  cursor: pointer;
+  
+}
+
+.Qcircle{
+  color: white;
+  font-size: 65px;
+  background: green;
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  text-align: center;
+  
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+

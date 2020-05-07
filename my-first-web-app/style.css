@@ -1,0 +1,38 @@
+p{
+    color: blue
+}
+
+.leftArrow {
+    transform: rotate(0.5turn)
+}
+
+.leftArrow,
+.rightArrow {
+    max-height: 24px; max-width: 24px;
+    padding: 25px;
+}
+
+.centerPage {
+    margin: 0 auto;
+    width: 700px;
+    
+}
+
+.mainImage {
+    display: flex;
+    
+    background: lightgrey;
+    align-items: center;
+    justify-content: space-around;
+    
+    margin-bottom: 15px;
+}
+
+.visibleImage {
+    Width: 700px;
+}
+
+.image {
+    max-width: 90px;
+    max-height: 80px;
+}
